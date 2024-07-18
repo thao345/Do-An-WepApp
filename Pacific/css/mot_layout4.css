@@ -1,0 +1,27 @@
+.serviceImg {
+  padding-bottom: 10px;
+}
+ .tieude {
+  font-size: 30px;
+  text-align: left;
+ }
+
+ blockquote {
+  margin: 20px 0 30px;
+  border-left: 5px solid;
+  padding-left: 20px;
+}
+
+.subtitle {
+  background: transparent;
+  color: #666666;
+  font-size: 14px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+ 
+}
+

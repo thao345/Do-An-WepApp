@@ -1,0 +1,743 @@
+@charset "utf-8";
+/* CSS Document */
+#showroom h1.vehicle{
+	font-size:25px;
+	font-weight:700;
+	margin:0 0 20px;
+	float:left;
+}
+#showroom h2.price{
+	margin: 0 0 20px;
+	color:#004181;
+	font-weight:700;
+	line-height:20px;
+	text-align:right
+}
+.saving{
+	font-size:18px;
+}
+#showroom h1.page-header {
+    font-size: 35px;
+    padding: 0 0 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+#showroom h3.page-header {
+    font-size: 24px;
+    padding: 0 0 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+#showroom .label-default{
+	background:#eee !important;
+	color:#333 !important;
+}
+.row.icons span img{
+	width:20px;
+	height:auto;
+	margin-top:-4px;
+	margin-right:5px;
+}
+.row.icons .col-xs-4{
+	margin-bottom:20px;
+}
+/* The ribbons */
+#showroom #slider,#showroom .thumbnail{
+	position:relative;
+	overflow:hidden;
+}
+#showroom .corner-ribbon{
+  width: 200px;
+  font-weight:700;
+  font-size:16px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  z-index:999;
+}
+
+/* Custom styles */
+
+#showroom .corner-ribbon.sticky{
+  position: fixed;
+}
+
+#showroom .corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* Different positions */
+
+#showroom .corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#showroom .corner-ribbon.top-right{
+  top: 25px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#showroom .corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 25px;
+  left: -50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#showroom .corner-ribbon.bottom-right{
+  top: auto;
+  right: -50px;
+  bottom: 25px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Colors */
+#showroom .corner-ribbon.white{
+	background: #f0f0f0;
+	color: #555;
+}
+#showroom .corner-ribbon.black{
+	background: #333;
+}
+#showroom .corner-ribbon.grey{
+	background: #999;
+}
+#showroom .corner-ribbon.blue{
+	background: #39d;
+}
+#showroom .corner-ribbon.green{
+	background: #2c7;
+}
+#showroom .corner-ribbon.turquoise{
+	background: #1b9;
+}
+#showroom .corner-ribbon.purple{
+	background: #95b;
+}
+#showroom .corner-ribbon.red{
+	background: #e43;
+}
+#showroom .corner-ribbon.orange{
+	background: #e82;
+}
+#showroom .corner-ribbon.yellow{
+	background: #ec0;
+}
+#showroom .linked{
+	cursor:pointer;
+}
+#showroom .center,.center th{
+	text-align:center;
+}
+#showroom .center th{
+	background:#999;
+	color:#fff;
+}
+
+#showroom .btn-group-vertical.cta{
+	width:100%;
+}
+#showroom .btn-group-vertical.cta span{
+	margin-left:10px;
+	font-weight:700;
+}
+#showroom .cta .btn{
+	text-align:left;
+	margin-bottom:10px;
+	width:100%;
+	text-indent:10px;
+	padding-left:0;
+	padding-right:0;
+}
+#showroom .cta .btn .glyphicon {
+	margin-right:10px;
+	top:2px;
+}
+#showroom .cta .btn.btn-enquire{
+	text-align:center !important;
+	border:none;
+	background:#da251c !important;
+	color:#fff;
+}
+#showroom .cta .btn.btn-enquire:hover,
+#showroom .cta .btn.btn-enquire:focus{
+	background:#b00900 !important;
+}
+
+#showroom .tab-content{
+	padding:20px 40px;
+}
+#showroom .tab-content h2{
+	font-size:20px;
+}
+
+#showroom .features li,
+#showroom .labelicons li,
+#showroom .spec li,
+#showroom .safety li{
+	margin-bottom:10px;
+}
+#showroom .labelicons label img{
+	width:20px;
+	height:auto;
+	margin:0 10px 0 0;
+}
+#showroom .features li label,
+#showroom .spec li label{
+	display:block;
+}
+#showroom .adbar{
+	margin-bottom:20px;
+	background:#eee;
+}
+#showroom .adbar img{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+/* Animations */
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.financecalc label{
+	margin:20px 0 10px;
+}
+.tab-content .glyphicon {
+	margin-right:15px;
+}
+.finex label{
+	display:block;
+	margin:20px 0 0;
+}
+.finex h2{
+	margin-top:0;
+}
+.finex .alert{
+	margin:20px 0 0;
+}
+.finance h2 {
+	margin: 10px 0 20px !important;
+	padding: 0 0 10px !important;
+	border-bottom: solid 1px #eee !important;
+	font-size:30px !important;
+}
+.finance .alert{
+	margin:20px 0 0;
+}
+.finance label {
+	display: block;
+	font-weight: bold;
+	margin: 0;
+}
+.finance .col-sm-4 {
+	margin-bottom: 10px;
+}
+.row.icons span img{
+	width:20px;height:auto;
+	margin-top:-4px;
+	margin-right:5px;
+}
+.row.icons .col-xs-4{
+	margin-bottom:20px;
+}
+.pagination{
+	margin:0 0 20px;
+}
+.finance h2{
+	margin:10px 0 20px;
+	padding:0 0 10px;
+	border-bottom: solid 1px #eee;
+}
+
+li.cleared{
+	border-top:1px solid #eee;
+}
+
+#slider .slides{
+	margin:0;
+}
+/* GAUGE */
+.gauge{
+	width:30%;
+	height:150px;
+	margin:0 0 60px;
+	padding:0;
+	position:relative;
+	border-radius:300px 300px 0 0;
+	float:left;
+}
+.gauge.center{
+	margin:0 5%;
+}
+.gauge.fuel{
+	background-image: url('http://www.dealermanager.co.uk/images/frontend/eco.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+	border-radius:300px 300px 0 0;
+	background-size:100% 100%;
+}
+@-webkit-keyframes rotate{
+	0%{-webkit-transform:rotate(0deg)}
+	100%{}
+}
+@keyframes rotate{
+	0%{transform:rotate(0deg)}
+	100%{}
+}
+
+.gauge .bar{
+	width:100%;
+	height:300px;
+	background:url('http://www.dealermanager.co.uk/images/frontend/ticker.png') no-repeat;
+	background-size:100% 100%;
+	-webkit-animation:rotate 2s 0s both;
+	animation:rotate 2s 0s both;
+	
+}
+.gauge label{
+	width:100%;
+	position:absolute;
+	bottom:-60px;
+	left:0;
+	text-align:center;
+	line-height:20px;
+	font-weight:bold;
+	font-size:15px;
+}
+.gauge label span{
+	font-weight:normal;
+	font-size:11px;
+}
+@media (max-width: 768px) {
+	.gauge{
+		width: 300px !important;
+		height:150px !important;
+		float: none !important;
+		margin:0 auto 60px !important;
+		display:block;
+	}
+	ul.emissions {
+		width: 100% !important;
+	}
+}
+/* EMISSIONS */
+@-webkit-keyframes width{
+	0% { width:0%;}
+	100%{ width:100%;}
+}
+@-webkit-keyframes slidein{
+	0% { top:-30px;}
+	100%{ }
+}
+@keyframes width{
+	0% { width:0%;}
+	100%{ width:100%;}
+}
+@keyframes slidein{
+	0% { top:-30px;}
+	100%{ }
+}
+
+ul.emissions{
+	width:640px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow:hidden;
+	background:url('http://www.dealermanager.co.uk/images/frontend/guide.png') right top;
+}
+ul.emissions li{
+	clear:both;
+	overflow:hidden;
+	position:relative;
+	display:block;
+	line-height:30px;
+	height:30px;
+	padding:0;
+	margin:0 0 5px;
+}
+ul.emissions li.value{
+	position:absolute;
+	right:0;
+	display:block;
+	line-height:30px;
+	text-align:center;
+	height:auto;
+	width:20%;
+	height:30px;
+	background:#333 url('http://www.dealermanager.co.uk/images/frontend/right-point.png') no-repeat left center;
+	color:#fff;
+	border-radius:0 10px 10px 0;
+	-webkit-animation:slidein 3s 2s both;
+	animation:slidein 3s 2s both;
+}
+ul.emissions li.value.A{
+	top:0px;
+	width:75%;
+}
+ul.emissions li.value.B{
+	top:35px;
+	width:70%;
+}
+ul.emissions li.value.C{
+	top:70px;
+	width:65%;
+}
+ul.emissions li.value.D{
+	top:105px;
+	width:60%;
+}
+ul.emissions li.value.E{
+	top:140px;
+	width:55%;
+}
+ul.emissions li.value.F{
+	top:175px;
+	width:50%;
+}
+ul.emissions li.value.G{
+	top:210px;
+	width:45%;
+}
+ul.emissions li.value.H{
+	top:245px;
+	width:40%;
+}
+ul.emissions li.value.I{
+	top:280px;
+	width:35%;
+}
+ul.emissions li.value.J{
+	top:315px;
+	width:30%;
+}
+ul.emissions li.value.K{
+	top:350px;
+	width:25%;
+}
+ul.emissions li.value.L{
+	top:385px;
+	width:20%;
+}
+ul.emissions li.value.M{
+	top:420px;
+	width:15%;
+}
+ul.emissions li.a{
+	width:25%;
+}
+ul.emissions li.b{
+	width:30%;
+}
+ul.emissions li.c{
+	width:35%;
+}
+ul.emissions li.d{
+	width:40%;
+}
+ul.emissions li.e{
+	width:45%;
+}
+ul.emissions li.f{
+	width:50%;
+}
+ul.emissions li.g{
+	width:55%;
+}
+ul.emissions li.h{
+	width:60%;
+}
+ul.emissions li.i{
+	width:65%;
+}
+ul.emissions li.j{
+	width:70%;
+}
+ul.emissions li.k{
+	width:75%;
+}
+ul.emissions li.l{
+	width:80%;
+}
+ul.emissions li.m{
+	width:85%;
+}
+ul.emissions li.a span,
+ul.emissions li.b span,
+ul.emissions li.c span,
+ul.emissions li.d span,
+ul.emissions li.e span,
+ul.emissions li.f span,
+ul.emissions li.g span,
+ul.emissions li.h span,
+ul.emissions li.i span,
+ul.emissions li.j span,
+ul.emissions li.k span,
+ul.emissions li.l span,
+ul.emissions li.m span{
+	width:100%;
+	display:block;
+	padding:0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	margin:0;
+	border-radius: 10px 0 0 10px;
+	overflow:hidden;
+	color:#fff;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+	position:relative;
+}
+ul.emissions li.a span strong,
+ul.emissions li.b span strong,
+ul.emissions li.c span strong,
+ul.emissions li.d span strong,
+ul.emissions li.e span strong,
+ul.emissions li.f span strong,
+ul.emissions li.g span strong,
+ul.emissions li.h span strong,
+ul.emissions li.i span strong,
+ul.emissions li.j span strong,
+ul.emissions li.k span strong,
+ul.emissions li.l span strong,
+ul.emissions li.m span strong{
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	width:30px;
+	text-align:center;
+	display:block;
+	font-size:15px;
+}
+ul.emissions li.a span em,
+ul.emissions li.b span em,
+ul.emissions li.c span em,
+ul.emissions li.d span em,
+ul.emissions li.e span em,
+ul.emissions li.f span em,
+ul.emissions li.g span em,
+ul.emissions li.h span em,
+ul.emissions li.i span em,
+ul.emissions li.j span em,
+ul.emissions li.k span em,
+ul.emissions li.l span em,
+ul.emissions li.m span em{
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	text-align:center;
+	display:block;
+	background:rgba(255,255,255,0.9);
+	text-shadow:1px 1px 0 #fff;
+	font-size:11px;
+	color:#333;
+	position:absolute;
+	left:30px;
+	top:2px;
+	width:90px;
+	line-height:26px;
+}
+ul.emissions li.a span{
+	background:#67bd45 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 0.1s both;
+	animation:width 1s 0.1s both;
+}
+ul.emissions li.b span{
+	background:#81c341 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 0.2s both;
+	animation:width 1s 0.2s both;
+}
+ul.emissions li.c span{
+	background:#9ecc3b url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 0.4s both;
+	animation:width 1s 0.4s both;
+}
+ul.emissions li.d span{
+	background:#c1d72f url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 0.6s both;
+	animation:width 1s 0.6s both;
+}
+ul.emissions li.e span{
+	background:#d4de25 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 0.8s both;
+	animation:width 1s 0.8s both;
+}
+ul.emissions li.f span{
+	background:#f6eb14 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 1s both;
+	animation:width 1s 1s both;
+}
+ul.emissions li.g span{
+	background:#f0d90c url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 1.2s both;
+	animation:width 1s 1.2s both;
+}
+ul.emissions li.h span{
+	background:#fcc30e url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 1.4s both;
+	animation:width 1s 1.4s both;
+}
+ul.emissions li.i span{
+	background:#f5981e url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 1.6s both;
+	animation:width 1s 1.6s both;
+}
+ul.emissions li.j span{
+	background:#f06f22 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 1.8s both;
+	animation:width 1s 1.8s both;
+}
+ul.emissions li.k span{
+	background:#ee4f23 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 2s both;
+	animation:width 1s 2s both;
+}
+ul.emissions li.l span{
+	background:#ec2227 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 2.2s both;
+	animation:width 1s 2.2s both;
+}
+ul.emissions li.m span{
+	background:#ba2025 url('http://www.dealermanager.co.uk/images/frontend/left-point.png') no-repeat right center;
+	-webkit-animation:width 1s 2.4s both;
+	animation:width 1s 2.4s both;
+}
+
+.roadtax{
+	float:right;
+	margin:0;
+	padding:0;
+	width:300px;
+}
+.roadtax .twelvemonths,
+.roadtax .sixmonths{
+	color:#fff;
+	font-weight:bold;
+	width:200px;
+	height:200px;
+	text-align:center;
+	line-height:130px;
+	font-size:40px;
+	margin:0 auto 50px;
+	display:block;
+}
+.roadtax .twelvemonths{
+	background:url('http://www.dealermanager.co.uk/images/frontend/12month-roadtax-disc.png');
+}
+.roadtax .sixmonths{
+	background:url('http://www.dealermanager.co.uk/images/frontend/6month-roadtax-disc.png');
+	margin:0 auto 0;
+}
+
+#showroom div.play{
+	position:fixed;
+	z-index:999999999;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	background:rgba(0,0,0,0.9);
+	display:none;
+}
+
+#showroom div.play .videoholder{
+	display:block;
+	width:640px;
+	height:360px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-180px 0 0 -320px;
+}
+
+#showroom div.play .videoholder div.close{
+	position:absolute;
+	right:0;
+	top:-30px;
+	background:#ededed;
+	color:#333;
+	text-shadow:1px 1px 0 #fff;
+	padding:0 10px;
+	margin:0;
+	border-radius:10px 10px 0 0;
+	height:30px;
+	line-height:30px;
+	cursor:pointer;
+}
+
+#showroom div.play .videoholder div.close:hover{
+	background:#fff;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #004181;
+    border-color: #004181;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #004181;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}

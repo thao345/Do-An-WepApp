@@ -1,0 +1,61 @@
+/* Section: SPAN section of 3 clickable images
+    Used classes: circles, row, col-xs-12, col-sm-12, col-md-4, col-lg-4 (main layout classes) (defined in bootstrap.css)
+                  img-responsive, center-block (style for images)
+                  boxhome, shadow (main animation and position classes) ( defined in newstyle.css)
+
+    3 columns layout with clickable images with fade animation
+    Image Size: 640 * 250
+*/
+
+.circles h2 {
+  font-size: 18px;
+}
+
+.boxhome{
+  padding:0;
+	margin:0;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+}
+.boxhome h2{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	color:#fff;
+	display:block;
+	width:100%;
+	text-align:center;
+	font-size:35px;
+	text-shadow:1px 1px 0 rgba(0,0,0,0.8),0 0 600px #000;
+	z-index:5;
+}
+.boxhome a{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	z-index:6;
+}
+.boxhome .shadow{
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	width:100%;
+	height:100%;
+	transition: all .6s ease-in-out;
+	-webkit-transition: all .6s ease-in-out;
+}
+.boxhome:hover .shadow{
+	background:rgba(0,0,0,0.7);
+}

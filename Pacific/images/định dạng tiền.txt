@@ -1,0 +1,10 @@
+định dạng tiền trong mysql Decimal(10,0) = 19500
+hiện trên trang them.php : 19500
+hiện ra list.php : 19.500 vnđ
+
+
+// in vardum
+echo "<pre>";
+highlight_string("<?php\n\$result = " . var_export($result, true) . ";\n?>");
+echo "</pre>";
+

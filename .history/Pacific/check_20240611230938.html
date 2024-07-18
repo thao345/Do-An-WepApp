@@ -1,0 +1,18 @@
+<script>
+    // Hàm để gửi yêu cầu AJAX
+    function sendRequest(action) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "update_counter.php?action=" + action, true);
+        xhr.send();
+    }
+
+    // Gửi yêu cầu tăng số đếm khi tải trang
+    window.onload = function() {
+        sendRequest('increment');
+    };
+
+    // Gửi yêu cầu giảm số đếm khi đóng trang
+    window.onbeforeunload = function() {
+        sendRequest('decrement');
+    };
+</script>

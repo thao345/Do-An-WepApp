@@ -1,0 +1,87 @@
+.blog-tester {
+  background-color: #ececec;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 5px #a8a8a8;
+  -moz-box-shadow: 0px 1px 5px #a8a8a8;
+  box-shadow: 0px 1px 5px #a8a8a8;
+  margin-bottom: 40px;
+}
+
+.blog-tester .body {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #343a3f;
+  /* word-break: break-all; */
+  text-align: left;
+}
+
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Số dòng tối đa muốn hiển thị */
+  -webkit-box-orient: vertical;
+}
+
+.truncate-text-head {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Số dòng tối đa muốn hiển thị */
+  -webkit-box-orient: vertical;
+}
+
+
+.blog-tester header {
+  padding-top: 20px;
+  padding-right: 45px;
+  padding-left: 45px;
+  text-align: center;
+}
+
+.blog-tester header img {
+  margin-bottom: 20px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.blog-tester header h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  font-size: 28px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.blog-tester header .meta {
+  color: #5a6065;
+}
+
+.blog-tester .btn {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+
+.btn-tales-one {
+  color: #ffffff;
+  background-color: #ea7163;
+  border-color: #d15c50;
+  background-image: linear-gradient(to bottom, #ea7163 0%, #e3402d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffea7163', endColorstr='#ffe3402d', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #e23824;
+}
+
+.content-service {
+  font-size: 15px;
+}
+  

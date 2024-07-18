@@ -1,0 +1,332 @@
+.sidebar-brand img {
+    width: 94px;
+    height: auto;
+    vertical-align: middle;
+    transform: rotate(15deg);
+}
+
+.bg-gradient-sidebars1 {
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg, #1c202d 10%, #484a50 100%);
+    background-size: cover;
+}
+
+
+
+.sidebar .nav-item .nav-link[data-bs-toggle=collapse].collapsed::after {
+    content: '\f105';
+}
+
+.sidebar .nav-item .nav-link[data-bs-toggle=collapse]::after {
+    color: rgba(255, 255, 255, .5);
+    width: 1rem;
+    text-align: center;
+    float: right;
+    vertical-align: 0;
+    border: 0;
+    font-weight: 900;
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+}
+
+.fa-solid.fa-truck::before,
+.fa-solid.fa-flag::before,
+.fa-solid.fa-database::before,
+.fa-solid.fa-chart-line::before,
+.fa-key:before,
+.fa-address-book::before,
+.fa-dollar-sign::before,
+.fa-calendar-check::before,
+.fa-hammer::before,
+.fa-receipt::before,
+.fa-file-excel::before { 
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+
+}
+
+.header-crud {
+    position: relative;
+    height: 57px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 16px;
+    background: #ddede0;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+}
+
+/* nút fullscreen */
+#fullscreenButton {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#fullscreenButton i {
+    font-size: 18px;
+}
+
+
+.form-inline.border {
+    position: relative;
+    /* border-radius: 4px; */
+}
+
+.filterPDNL.border::before {
+    content: "Lọc theo ngày tạo phiếu";
+    position: absolute;
+    top: -14px;
+    left: 195px;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.filterTinhThanh.border::before {
+    content: "Lọc theo ngày tạo";
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 85px);
+    /* Adjust the value (-85px) as needed */
+    width: 170px;
+    /* Adjust the width as needed */
+    text-align: center;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.filterDonHang.border::before {
+    content: "Lọc theo ngày tạo";
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 85px);
+    /* Adjust the value (-85px) as needed */
+    width: 170px;
+    /* Adjust the width as needed */
+    text-align: center;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.filterBCSC.border::before {
+    content: "Lọc theo ngày sửa chữa";
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 85px);
+    /* Adjust the value (-85px) as needed */
+    width: 170px;
+    /* Adjust the width as needed */
+    text-align: center;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.filterBCTU.border::before {
+    content: "Lọc theo ngày tạm ứng";
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 85px);
+    /* Adjust the value (-85px) as needed */
+    width: 170px;
+    /* Adjust the width as needed */
+    text-align: center;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.filterBCLN.border::before {
+    content: "Lọc theo ngày lập đơn hàng";
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 85px);
+    /* Adjust the value (-85px) as needed */
+    width: 220px;
+    /* Adjust the width as needed */
+    text-align: center;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.checkbox-to {
+    transform: scale(1.2);
+}
+
+.hidden-column {
+    display: none;
+}
+
+.bg-dieuhanh {
+    background-color: #187d59;
+}
+
+.bg-khvt {
+    background-color: #3b479dd4 ;
+}
+
+.bg-lichtrinh {
+    background-color: #3d6270;
+}
+
+/* CSS TABLE */
+.bg-row-header {
+    background-color: rgb(30 147 164) !important;
+    color: white;
+}
+
+.bg-row-sum {
+    background-color: #6da3d170;
+}
+
+.bg-header-ttdh {
+    background-color: #4e4d81 !important;
+}
+
+.bg-header-tienchi {
+    background-color: #7d7d2b !important;
+}
+
+.bg-header-doanhthukhac {
+    background-color: #25785b !important;
+}
+
+.bg-header-doanhthutong {
+    background-color: #774843 !important;
+}
+
+.bg-header-tongchiphi {
+    background-color: #607D8B !important;
+}
+
+.bg-header-loinhuan {
+    background-color: #4a2d7f !important;
+}
+
+
+/* END CSS TABLE */
+
+.btn-dieuhanh {
+    color: #fff;
+    background-color: #187d59;
+    border-color: #187d59;
+}
+
+.btn-dieuhanh:focus,.btn-dieuhanh:hover {
+    color: #fff;
+    background-color: #187d59;
+    border-color: #187d59;
+    box-shadow: 0 0 0 .2rem rgba(247, 203, 91, .5);
+}
+
+.dautinhtoan {
+    color: #00040e;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+/* Timeline start */
+
+/* Timeline holder */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+/* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #ddd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Timeline end */
+
+/*  start custom btn add,edit,delete,print */
+.btn-edit {
+    background-color: var(--light);
+}
+
+.btn-delete {
+    background-color: #ad0b0bbf;
+}
+
+.btn-print {
+    background-color: #fb79b4;
+}
+.btn-add {
+    background-color: var(--primary);
+}
+/*end  custom btn add,edit,delete,print */
+
+.textbox {
+    display: flex; 
+    overflow-wrap: break-word; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.input-group {
+    border-radius: 30px;
+    /* Adjust as needed */
+}
+
+
+
+.form-control-user,
+.btn-outline-secondary {
+    border: 1px solid #ced4da;
+    /* Ensure matching border color */
+}
+
+.btn-outline-secondary {
+    border-left: none;
+    /* Remove duplicate border */
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+    box-shadow: none;
+}
+    

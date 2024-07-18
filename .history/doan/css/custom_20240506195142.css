@@ -1,0 +1,155 @@
+.sidebar-brand img {
+    width: 94px;
+    height: auto;
+    vertical-align: middle;
+    transform: rotate(15deg);
+}
+
+.bg-gradient-sidebars1 {
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg, #1c202d 10%, #484a50 100%);
+    background-size: cover;
+}
+
+
+
+.sidebar .nav-item .nav-link[data-bs-toggle=collapse].collapsed::after {
+    content: '\f105';
+}
+
+.sidebar .nav-item .nav-link[data-bs-toggle=collapse]::after {
+    color: rgba(255, 255, 255, .5);
+    width: 1rem;
+    text-align: center;
+    float: right;
+    vertical-align: 0;
+    border: 0;
+    font-weight: 900;
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+}
+
+.fa-solid.fa-truck::before,
+.fa-solid.fa-flag::before,
+.fa-solid.fa-database::before,
+.fa-solid.fa-chart-line::before,
+.fa-key:before,
+.fa-address-book::before,
+.fa-dollar-sign::before,
+.fa-calendar-check::before,
+.fa-hammer::before,
+.fa-receipt::before {
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+
+}
+
+.header-crud {
+    position: relative;
+    height: 57px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 16px;
+    background: #ddede0;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+}
+
+/* nút fullscreen */
+#fullscreenButton {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#fullscreenButton i {
+    font-size: 18px;
+}
+
+
+.form-inline.border {
+    position: relative;
+    /* border-radius: 4px; */
+}
+
+.filterPDNL.border::before {
+    content: "Lọc theo ngày cấp nhiên liệu";
+    position: absolute;
+    top: -14px;
+    left: 195px;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.filterTinhThanh.border::before {
+    content: "Lọc theo ngày tạo";
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 85px);
+    /* Adjust the value (-85px) as needed */
+    width: 170px;
+    /* Adjust the width as needed */
+    text-align: center;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.filterDonHang.border::before {
+    content: "Lọc theo ngày tạo";
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 85px);
+    /* Adjust the value (-85px) as needed */
+    width: 170px;
+    /* Adjust the width as needed */
+    text-align: center;
+    background-color: #f8f9fc;
+    color: #4c4949;
+}
+
+.checkbox-to {
+    transform: scale(1.5);
+}
+
+.hidden-column {
+    display: none;
+}
+
+.bg-dieuhanh {
+    background-color: #187d59;
+}
+
+.btn-dieuhanh {
+    color: #fff;
+    background-color: #187d59;
+    border-color: #187d59;
+}
+
+.btn-dieuhanh:focus,.btn-dieuhanh:hover {
+    color: #fff;
+    background-color: #187d59;
+    border-color: #187d59;
+    box-shadow: 0 0 0 .2rem rgba(247, 203, 91, .5);
+}
+
+.dautinhtoan {
+    color: #00040e;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.textbox {
+    display: flex; 
+    
+    overflow-wrap: break-word; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
